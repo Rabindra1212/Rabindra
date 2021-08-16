@@ -1,0 +1,35 @@
+.rabindra-news .rsg-news-list {
+	padding: 15px;
+	border: 1px solid #ccc;
+	display: block;
+	margin-top: -1px;
+}
+.rabindra-news .rsg-news-list:nth-child(even){
+	background-color:#f1f1f1;
+}
+.rabindra-news .rsg-news-list:nth-child(odd){
+	background-color:#FAFAFA;
+}
+.rabindra-news .rsg-news-title {
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:5px;
+}
+.rabindra-news .rsg-news-time {
+	font-size:14px;
+	color:#666;
+	font-style:italic;
+}
+.rabindra-news .pager {
+	margin-top:20px;
+	display:flex;
+}
+.rabindra-news .toolbar-amount {
+	margin-right:20px;
+}
+.rabindra-news .rsg-news-desc {
+	margin-top:15px;
+}
+.rabindra-news a:hover {
+	text-decoration:none;
+}

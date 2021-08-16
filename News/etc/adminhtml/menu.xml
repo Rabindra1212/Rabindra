@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+	  <add id="Rabindra_News::rabindra" title="RABINDRA" translate="title" module="Rabindra_News" sortOrder="90" dependsOnModule="Rabindra_News" resource="Rabindra_News::rabindra"/>
+	  <add id="Rabindra_News::news" title="News" translate="title" module="Rabindra_News" parent="Rabindra_News::rabindra" sortOrder="50" dependsOnModule="Rabindra_News" resource="Rabindra_News::news"/>
+	  <add id="Rabindra_News::news_allnews" title="All News" translate="title" module="Rabindra_News" parent="Rabindra_News::news" sortOrder="10" dependsOnModule="Rabindra_News" action="news/allnews" resource="Rabindra_News::news_allnews"/>
+	  <add id="Rabindra_News::settings" title="Settings" translate="title" module="Rabindra_News" parent="Rabindra_News::rabindra" sortOrder="60" dependsOnModule="Rabindra_News" resource="Rabindra_News::settings"/>
+	  <add id="Rabindra_News::news_config" title="Configuration" translate="title" module="Rabindra_News" parent="Rabindra_News::settings" sortOrder="10" dependsOnModule="Rabindra_News" action="adminhtml/system_config/edit/section/rabindra_news" resource="Rabindra_News::news_config"/>
+	</menu>
+</config>
+  
